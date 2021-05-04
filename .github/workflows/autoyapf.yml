@@ -19,9 +19,7 @@ jobs:
           ref: ${{ github.head_ref }}
       - name: autoyapf
         id: autoyapf
-        uses: mkvithal
-/
-2019_code_academy@master
+        uses: mkvithal/2019_code_academy@master
         with:
           args: --style pep8 --recursive --in-place .
       - name: Check for modified files
