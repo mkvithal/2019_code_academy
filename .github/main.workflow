@@ -4,6 +4,6 @@ workflow "on check suite creation, run flake8 and post results" {
 }
 
 action "run flake8" {
-    uses = "tayfun/flake8-your-pr@master"
+    uses = "mkvithal/2019_code_academy@master"
     secrets = ["GITHUB_TOKEN"]
 }
